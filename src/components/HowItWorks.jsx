@@ -10,7 +10,10 @@ export default function HowItWorks() {
                 <h2>Our quality of food and delivery are our greatest asset. No delay on your special event(s)</h2>
                 <div className="right__steps">
                     <div className="step">
-                        <GiNotebook />
+                        <div className="icon__section">
+                            <GiNotebook className='icon' />
+                            <div className="horizontal__rule"></div>
+                        </div>
                         <div className="step__text">
                             <h3>Whether you order long before your special occassion or it's an impromptu occassion, We've got you covered.
                             </h3>
@@ -18,7 +21,10 @@ export default function HowItWorks() {
                         </div>
                     </div>
                     <div className="step">
-                        <GiNotebook />
+                        <div className="icon__section">
+                            <GiNotebook className='icon' />
+                            <div className="horizontal__rule"></div>
+                        </div>
                         <div className="step__text">
                             <h3>Whether you order long before your special occassion or it's an impromptu occassion, We've got you covered.
                             </h3>
@@ -26,7 +32,10 @@ export default function HowItWorks() {
                         </div>
                     </div>
                     <div className="step">
-                        <GiNotebook />
+                        <div className="icon__section">
+                            <GiNotebook className='icon' />
+                            <div className="horizontal__rule"></div>
+                        </div>
                         <div className="step__text">
                             <h3>Whether you order long before your special occassion or it's an impromptu occassion, We've got you covered.
                             </h3>

@@ -59,9 +59,43 @@
 /* How it works */
 .howitworks__container {
   display: flex;
+  justify-content: center;
   align-items: center;
+  gap: 200px;
 }
 
 .left__section h2 {
   max-width: 450px;
+  margin-bottom: 20px;
 }
+
+.right {
+  max-width: 600px;
+}
+.right h2 {
+  margin-bottom: 50px;
+}
+.icon__section {
+  display: flex;
+  gap: 45px;
+}
+.horizontal__rule {
+  width: 1px;
+  transform: rotate(90deg);
+  border: 1px solid red;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+.step {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+.step__text>h3 {
+  margin-bottom: 15px;
+}
+
+/* Our Services */
