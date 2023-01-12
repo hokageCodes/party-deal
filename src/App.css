@@ -1,9 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  margin: 20px 50px;
+}
+
 .nav__container {
-  background: #232536;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__links {
+  display: flex;
+  gap: 50px;
+}
+
+.nav__links>li {
+  list-style: none;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.inquiry__button {
+  text-align: center;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid black;
+}
+
+/* Hero Section */
+.hero__section {
+  
+}
+.hero__section span {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 57px;
+  
+}
+.hero__section h1 {
+  max-width: 550px;
+  margin-left: 450px;
+  margin-top: 90px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero__section {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 170.52%;
+}
+
+.hero__section p {
+  position: absolute;
+  left: 570px;
+  margin-top: -30px;
+  max-width: 400px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
 }
